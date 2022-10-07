@@ -70,15 +70,15 @@ namespace Casino
             }
             else if (r2 == 3)
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\3.png"));
+                img2.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\3.png"));
             }
             else if (r2 == 4)
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\4.png"));
+                img2.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\4.png"));
             }
             else
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\5.png"));
+                img2.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\5.png"));
             }
 
             if (r3 == 1)
@@ -91,15 +91,15 @@ namespace Casino
             }
             else if (r3 == 3)
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\3.png"));
+                img3.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\3.png"));
             }
             else if (r3 == 4)
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\4.png"));
+                img3.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\4.png"));
             }
             else
             {
-                img1.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\5.png"));
+                img3.Source = new BitmapImage(new Uri("C:\\Users\\Gukich\\source\\repos\\Casino\\Casino\\img\\5.png"));
             }
             if (r1 == r2 && r2 == r3)
             {
